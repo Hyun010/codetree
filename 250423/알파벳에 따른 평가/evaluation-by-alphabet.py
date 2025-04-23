@@ -4,7 +4,7 @@ if c=="S":
 elif c=="A":
     print("Excellent")
 elif c=="B":
-    print("Gooe")
+    print("Good")
 elif c=="C":
     print("Usually")
 elif c=="D":
