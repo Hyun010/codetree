@@ -1,3 +1,4 @@
-s=input()
+s=list(input())
 n=int(input())
-print(s[len(s):len(s)-n-1:-1])
+s.reverse()
+print("".join(s[:n]))
