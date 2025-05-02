@@ -4,5 +4,6 @@ a=0
 for _ in range(n):
     w=input()
     s+=len(w)
-    a+=w.count('a')
+    if w[0]=='a':
+        a+=1
 print(s,a)
