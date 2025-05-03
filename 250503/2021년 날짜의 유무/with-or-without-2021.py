@@ -11,18 +11,18 @@ def judge(m,d):
             else:
                 return False
         else:
-            if 1<=m<=30:
+            if 1<=d<=30:
                 return True
             else:
                 return False
     elif 8<=m<=12:
         if m%2==0:
-            if 1<=m<=31:
+            if 1<=d<=31:
                 return True
             else:
                 return False
         else:
-            if 1<=m<=30:
+            if 1<=d<=30:
                 return True
             else:
                 return False
