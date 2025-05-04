@@ -9,13 +9,15 @@ def p1(n):
     p1(n)
 
 def p2(n):
+    global t
     if n==0:
         return
-    print(8-n,end=' ')
+    print(t-n,end=' ')
     n-=1
     p2(n)
 
 n = int(input())
+t=n+1
 p2(n)
 print()
 p1(n)
