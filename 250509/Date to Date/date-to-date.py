@@ -19,7 +19,7 @@ else:
     if m2-m1!=0:
         for i in range(m1+1,m2):
             if m1<=7:
-                if m1==2:
+                if i==2:
                     t2+=28
                 elif i%2==0:
                     t2+=30
