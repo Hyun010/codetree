@@ -15,7 +15,7 @@ else:
         else:
             t1=31
     else:
-        if m%2==1:
+        if m1%2==1:
             t1=31
         else:
             t1=30
