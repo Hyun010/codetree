@@ -1,7 +1,8 @@
 n = int(input())
 nums = list(map(int, input().split()))
 nums.sort()
-l=[]
-for i in range(n//2+1):
-    l.append(nums[i]+nums[-(i+1)])
-print(max(l))
+m=0
+for i in range(n):
+    t=nums[i]+nums[2*n-1-i]
+    m=max(m,t)
+print(m)
