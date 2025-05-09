@@ -19,7 +19,7 @@ else:
         else:
             t1=30
     for i in range(m1+1,m2):
-        if m1<=7:
+        if i<=7:
             if i==2:
                 t2+=28
             elif i%2==0:
