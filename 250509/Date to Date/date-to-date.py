@@ -5,7 +5,9 @@ if m1==m2 and d1==d2:
     print(1)
 else:
     if m1<=7:
-        if m1%2==0:
+        if m1==2:
+            t1=28
+        elif m1%2==0:
             t1=30
         else:
             t1=31
@@ -17,7 +19,9 @@ else:
     if m2-m1!=0:
         for i in range(m1+1,m2):
             if m1<=7:
-                if i%2==0:
+                if m1==2:
+                    t2+=28
+                elif i%2==0:
                     t2+=30
                 else:
                     t2+=31
