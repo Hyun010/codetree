@@ -53,7 +53,7 @@ else:
             else:
                 t2+=30
     cnt=(t1-d1+d2+t2)//7
-    if (t1-d1+d2+t2)%7>=p1[A]:
+    if (t1-d1+d2+t2)%7>p1[A]:
         print(cnt+1)
     else:
         print(cnt)
