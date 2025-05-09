@@ -34,7 +34,7 @@ elif m1<m2:
                 t2+=30
     print(p[((t1-d1+d2+t2)%7)])
 else:
-    if m1<=7:
+    if m2<=7:
         if m2==2:
             t1=28
         elif m2%2==0:
