@@ -1,5 +1,5 @@
 a, b, c = map(int, input().split())
-if b<11:
+if b<11 and a==11:
     print(-1)
 else:
     t1=0
