@@ -10,7 +10,10 @@ def lcm(a, b):
 
 n = int(input())
 arr = list(map(int, input().split()))
-l=lcm(arr[0],arr[1])
-for i in range(2,len(arr)):
-    l=lcm(l,arr[i])
-print(l)
+if n==1:
+    print(n)
+else:
+    l=lcm(arr[0],arr[1])
+    for i in range(2,len(arr)):
+        l=lcm(l,arr[i])
+    print(l)
