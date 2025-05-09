@@ -6,7 +6,7 @@ t2=0
 if m1==m2:
     t=d2-d1
     print(p[t%7])
-else:
+elif m1<m2:
     if m1<=7:
         if m1==2:
             t1=28
@@ -33,3 +33,30 @@ else:
             else:
                 t2+=30
     print(p[((t1-d1+d2+t2)%7)])
+else:
+    if m1<=7:
+        if m2==2:
+            t1=28
+        elif m2%2==0:
+            t1=30
+        else:
+            t1=31
+    else:
+        if m2%2==0:
+            t1=31
+        else:
+            t1=30
+    for i in range(m2+1,m1):
+        if i<=7:
+            if i==2:
+                t2+=28
+            elif i%2==0:
+                t2+=30
+            else:
+                t2+=31
+        else:
+            if i%2==0:
+                t2+=31
+            else:
+                t2+=30
+    print(p[((-d1-t1+d2-t2)%7)])
