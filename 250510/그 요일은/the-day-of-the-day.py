@@ -22,7 +22,7 @@ elif m1==m2:
             print(0)
     else:
         cnt=(d2-d1)//7
-        if (d2-d1)%7>=p1[A]:
+        if (d2-d1)%7>p1[A]:
             print(cnt+1)
         else:
             print(cnt)
