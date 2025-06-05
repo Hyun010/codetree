@@ -7,6 +7,6 @@ for _ in range(xin,ax+1):
     cnt+=1
 a=[0]*(cnt+1)
 for c,d in segments:
-    for i in range(c,d+1):
+    for i in range(c,d):
         a[i]+=1
 print(max(a))
